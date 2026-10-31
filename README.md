@@ -57,4 +57,60 @@ The regression models were evaluated using:
 
 - Mean Absolute Error (MAE)
 - Mean Squared Error (MSE)
-- Root Mean Squ
+- Root Mean Squared Error (RMSE)
+- R-squared (R²)
+
+K-Means clustering was explored separately because it is an unsupervised learning algorithm.
+
+## Project Structure
+
+```text
+Student_Academic_Performance_CA2/
+│
+├── main.py
+├── student_grade_ses_dataset.csv
+└── README.md
+```
+
+## How to Run the Project
+
+1. Clone this repository:
+
+```bash
+git clone https://github.com/shalini5005/student-academic-performance-prediction.git
+```
+
+2. Navigate to the project folder:
+
+```bash
+cd student-academic-performance-prediction
+```
+
+3. Install the required libraries:
+
+```bash
+pip install pandas numpy matplotlib seaborn scikit-learn
+```
+
+4. Run the Python file:
+
+```bash
+python main.py
+```
+
+## Key Learning Outcomes
+
+- Learned the basics of predictive analytics and machine learning.
+- Practiced data cleaning and preprocessing.
+- Explored student academic data through visualizations.
+- Implemented regression and clustering algorithms.
+- Compared regression model performance using evaluation metrics.
+
+## Conclusion
+
+This project provided practical experience in applying machine learning techniques to student academic data. Among the regression models tested, Linear Regression achieved the best R² score in the initial model comparison. The clustering model also helped explore groups of students with different academic characteristics.
+
+---
+
+**Project Type:** Academic / Machine Learning Project  
+**Language:** Python
