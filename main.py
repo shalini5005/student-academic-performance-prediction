@@ -311,6 +311,19 @@ plt.title("Decision Tree Regression")
 plt.tight_layout()
 plt.show()
 
+################ ACTUAL VS PREDICTED GRADES ################
+
+plt.figure(figsize=(8, 6))
+plt.scatter(y_test, lr_predictions, alpha=0.5)
+
+# Perfect prediction reference line
+plt.plot([y_test.min(), y_test.max()], [y_test.min(), y_test.max()], color="red", linestyle="--")
+plt.title("Actual vs Predicted Grades - Linear Regression")
+plt.xlabel("Actual Grades (%)")
+plt.ylabel("Predicted Grades (%)")
+# plt.tight_layout()
+plt.show()
+
 ################ MODEL 5: K-MEANS CLUSTERING ################
 
 # Select features
